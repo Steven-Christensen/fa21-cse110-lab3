@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+           
+            #todos { /*for the absolute units sections*/
+              font-size: 0.5cm;
+              line-height: 1cm;
+            }
+            #first { /*for the absolute units sections*/
+              font-size: 5mm;
+              line-height: 1cm;
+            }
+            #second { /*for the absolute units sections*/
+              font-size: 18Q;
+              line-height: 1cm;
+            }
+
+            #last { /*for the relative units sections*/
+              font-size: 1em;
+              line-height: 1cm;
+            }
+            #newBusiness { /*for the relative units sections*/
+              font-size: 2vw;
+              line-height: 1cm;
+            }
+            #firstB { /*for the relative units sections*/
+              font-size: 3vh;
+              line-height: 1cm;
+            }
+    
+            </style>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-sale=1.0" />
@@ -45,16 +74,16 @@
                 <li>second thing</li>
                 <li>last thing</li>
                 </ol>
-            <hr><strong>Todo's from Last Meeting</strong>
+            <hr><strong id ="todos">Todo's from Last Meeting</strong>
                 <ol> 
-                <li>first thing</li>
-                <li>second thing</li>
-                <li>last thing</li>
+                <li id="first">first thing</li>
+                <li id="second">second thing</li>
+                <li id="last">last thing</li>
                 </ol>
-            <hr><em>New Business</em>
+            <hr><em id= newBusiness>New Business</em>
                 <ol> 
-                <li>first thing</li>
-                <li>second thing</li>
+                <li id="firstB">first thing</li>
+                <li id="secondB">second thing</li>
                 <li>last thing</li>
                 </ol>
             </section>
