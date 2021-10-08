@@ -1,3 +1,1 @@
-https://steven-christensen.github.io/Lab2/
-
-line added for lab 3 check
+https://steven-christensen.github.io/fa21-cse110-lab3/
