@@ -1,0 +1,21 @@
+/* coloring: used all 4 under Color and used background-color under background 
+the img used and alpha value of .5 */
+h1 {
+    color: purple;
+    }
+
+h2{
+    background-color: black;
+    color: green;
+}
+
+h3{
+    color: #808000;
+}
+
+h4{
+    color: hsl(30, 100%, 50%);
+}
+img{
+    opacity: .5;
+}
