@@ -7,15 +7,48 @@ h1 {
 h2{
     background-color: black;
     color: green;
+    margin-top:1px; margin-bottom:1px; margin-left:1px; margin-right:2px;
 }
 
 h3{
     color: #808000;
+    background-color: black;
+    margin: 1px 2px 1px 2px;
 }
 
 h4{
+    background-color: black;
     color: hsl(30, 100%, 50%);
+    margin: auto;
 }
 img{
+    background-color: wheat;
     opacity: .5;
+    padding: 1px 2px 1px 2px
 }
+
+body{
+    background-color: aqua;
+}
+ol, li{
+    padding-top:5px; padding-bottom:5px; padding-left:2px; padding-right:2px;
+}
+
+*{
+    margin: auto;
+}
+
+p:hover {
+    border: 1px solid blue;
+  } 
+
+  body div{
+      border-style: solid;
+      border-color: blue;
+      border-width: auto;
+      border-radius: auto;
+  }
+
+  nav>li{
+    background-color: dodgerblue;
+  }
