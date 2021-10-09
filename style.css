@@ -2,6 +2,8 @@
 the img used and alpha value of .5 */
 h1 {
     color: purple;
+    text-decoration: underline;
+    text-align:center;
     }
 
 h2{
@@ -24,7 +26,13 @@ h4{
 img{
     background-color: wheat;
     opacity: .5;
-    padding: 1px 2px 1px 2px
+    padding: 1px 2px 1px 2px;
+
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: auto;
+    min-width: auto;   
 }
 
 body{
@@ -52,3 +60,17 @@ p:hover {
   nav>li{
     background-color: dodgerblue;
   }
+
+  p ~ span{
+      color: red;
+  }
+
+  li:first-of-type + li {
+    color:rebeccapurple;
+  }
+  audio{
+      display:block;
+  }
+video{
+    display:inline-block;
+}
