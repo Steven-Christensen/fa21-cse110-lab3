@@ -84,3 +84,49 @@ button:hover {
 button:active{
     color:red;
 }
+
+.parent-1{
+    display:flex;
+  }
+.parent-2{
+    display: flex;
+
+}
+.parent-2 {
+    flex-direction: column;
+}
+.parent-3{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(4, 5fr);
+    gap: 1px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one{
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+  }
+  .three {
+    grid-column: 6;
+    grid-row: 2 / 5;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 3;
+  }
